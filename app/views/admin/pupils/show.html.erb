@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @pupil.name %>
+</p>
+
+<p>
+  <strong>Surname:</strong>
+  <%= @pupil.surname %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @pupil.description %>
+</p>
+
+<p>
+  <strong>Points total:</strong>
+  <%= @pupil.points_total %>
+</p>
+
+<%= link_to 'Edit', edit_admin_pupil_path(@pupil) %> |
+<%= link_to 'Back', admin_pupils_path %>
